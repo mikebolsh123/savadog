@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgb(253, 253, 253);
+}
+
+a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgb(226, 215, 12);
+    text-align: justify;
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ко всем вкладкам */
+
+
+.firstrow {
+    margin-bottom: 5%;
+    border-style: groove;
+    text-align: center;
+    border-radius: 10%;
+    /* margin-right: 2%; */
+    border-color: rgb(14, 125, 223);
+    background-color: #040404;
+}
+
+/* наведение на кнопку */
+.firstrow:hover {
+    background-color: rgb(14, 125, 223);
+    color: rgb(96, 92, 11);
+}
+
+.text {
+    margin-bottom: 1%;
+}
+
+/* фон сайтов */
+.wrapper {
+    background: #0D08A3;
+    background: linear-gradient(0deg, rgb(8, 5, 108) 0%, rgba(2, 2, 5, 1) 100%);
+    width: 100%; 
+}
+
+/* отступ по бокам */
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.nameofsite {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8%;
+    /* margin-top: 50px; */
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/* иконка всех сайтов */
+#icon {
+    position: absolute;
+    /* position: fixed; */
+    width: 40%;
+}
+
+/* кнопки для футера страницы */
+.iconbottom {
+    width: 50px;
+    height: 70px;
+    position: relative;
+    left: 40%; 
+}
+
+#iconvk {
+
+    position: relative;
+    left: 45%;
+}
+
+#iconmoneysending {
+    position: relative;
+    left: 50%;
+}
+
+.photo {
+    float: left;
+    width: 47%;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+
+/* стили для главной страницы */
+#wrappermain {
+    height: 86vi;
+}
+
+#memories {
+    margin-right: 2%;
+    float: left;
+    width: 30%;
+}
+
+#citation {
+    margin-right: 2%;
+    float: left;
+    width: 31%;
+}
+
+#pro {
+    float: left;
+    width: 31%
+}
+
+/* стили для страницы с воспоминаниями */
+#wrappermem {
+    height: 127vi;
+}
+
+#citationm {
+    float: left;
+    width: 45%;
+    margin-right: 6%;
+}
+
+#prom {
+    float: left;
+    width: 46%
+}
+
+#pivo {
+    width: 100%;
+}
+
+/* стили для страницы с цитатами */
+#wrapperc {
+   height: 219vi; 
+}
+
+#memoriesc {
+    float: left;
+    width: 48%;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    margin-right: 2%;
+}
+
+#proc {
+    float: left;
+    width: 48%;
+    /* padding-left: 40px;
+    padding-right: 30px; */
+}
+
+table { 
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    font-size: 30px;
+    width: 1400px;
+    background-color: #040404;
+}
+
+#margingc {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.photoc {
+    float: left;
+    width: 200px; 
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* стили для страницы с информацией о проекте */
+
+#wrapperi {
+    height: 166vi;
+    
+}
+
+#photoi {
+    float: left;
+    width: 100%; 
+    
+}
+
+#a {
+    
+    text-align: center;
+}
+
+#two {
+    float: left;
+    width: 100%;
+}
+
+
+.iconbottomi {
+    float: left;
+    width: 20%;
+    width: 50px;
+    height: 70px;
+    /* margin-left: 10%; */
+}
+
+#icontgi {
+    margin-left: 45%;
+    padding-right: 15px;
+}
+
+#iconvki {
+    padding-right: 15px;
+}
+
+#memoriesci {
+    float: left;
+    width: 48%;
+    margin-right:2%;
+}
+
+#citationi {
+    float: left;
+    width: 48%;
+}
+
+
